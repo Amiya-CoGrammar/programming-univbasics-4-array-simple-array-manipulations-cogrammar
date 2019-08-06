@@ -20,7 +20,7 @@ end
 using_pop(["JP", "Imraan", "Sobane"])
 
 def using_shift(array)
-  array_shift = array.shift
+  array_shift = array
   p array_shift
 end
 using_shift(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
