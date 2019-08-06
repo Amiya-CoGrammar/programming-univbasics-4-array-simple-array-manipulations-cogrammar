@@ -40,3 +40,8 @@ def using_insert(array, element)
    array.insert(4, element)
 end
 using_insert( ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Python")
+
+
+def using_uniq(array)
+  array.uniq()
+using_uniq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"])
