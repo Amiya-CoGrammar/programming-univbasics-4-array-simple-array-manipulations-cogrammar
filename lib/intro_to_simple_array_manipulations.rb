@@ -18,3 +18,9 @@ def pop_with_args(array)
   return array_remove_last
 end
 using_pop(["JP", "Imraan", "Sobane"])
+
+def using_shift(array)
+  array.shift()
+  return array
+end
+using_shift(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
