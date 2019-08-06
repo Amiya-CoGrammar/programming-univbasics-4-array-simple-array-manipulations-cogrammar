@@ -38,5 +38,6 @@ using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "fla
 
 def using_insert(array)
   array.insert([4], "Pyhton")
+  puts array.inspect
 end
 using_insert( ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"])
