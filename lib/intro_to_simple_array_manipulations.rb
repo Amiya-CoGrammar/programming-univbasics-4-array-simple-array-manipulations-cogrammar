@@ -51,3 +51,8 @@ def using_flatten(array)
   array.flatten()
 end
 using_flatten(["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"])
+
+def using_delete(array, string)
+  array.delete("Steven")
+end
+using_delete(["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"])
