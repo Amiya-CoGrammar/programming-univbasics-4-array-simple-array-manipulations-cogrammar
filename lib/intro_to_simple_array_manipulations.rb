@@ -35,3 +35,8 @@ def using_concat(array1, array2)
   array1.concat array2
 end
 using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "flatiron school"])
+
+def using_insert(array, new_element)
+  array.insert(new_element, 3)
+end
+using_insert( ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Pyhton")
