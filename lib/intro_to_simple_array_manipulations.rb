@@ -57,7 +57,7 @@ def using_delete(array, string)
 end
 using_delete(["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"],"Steven")
 
-def using_delete_at(array)
-  array.delete_at()
+def using_delete_at(array integer)
+  array.delete_at(integer)
 end
-using_delete_at(["Johnny 5", "R2D2", "Robocop"])
+using_delete_at(["Johnny 5", "R2D2", "Robocop"], 4)
