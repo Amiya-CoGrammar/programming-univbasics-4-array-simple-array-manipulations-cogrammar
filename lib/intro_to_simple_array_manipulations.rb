@@ -37,6 +37,6 @@ end
 using_concat(["raindrops on roses", "whiskers on kittens"], ["sports cars", "flatiron school"])
 
 def using_insert(array, element)
-  new_array()[4] element)
+  new_array([3], element)
 end
 using_insert( ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"], "Pyhton")
