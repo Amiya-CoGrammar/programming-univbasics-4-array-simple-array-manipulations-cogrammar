@@ -26,7 +26,7 @@ end
 using_shift(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
 
 def shift_with_args(array)
-  array_shift = array.shift
+  array_shift = array.shift(2)
   return array_shift
 end
 shift_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
