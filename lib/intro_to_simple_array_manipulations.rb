@@ -15,6 +15,6 @@ using_pop(["JP", "Imraan", "Sobane"])
 
 def pop_with_args(array)
   array_remove_last = array.pop(2)
-  puts array_remove_last
+  return array_remove_last
 end
 using_pop(["JP", "Imraan", "Sobane"])
