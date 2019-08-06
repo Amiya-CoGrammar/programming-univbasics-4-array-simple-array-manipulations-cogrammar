@@ -29,16 +29,3 @@ def shift_with_args(array)
   array_shift = array.shift()
 end
 shift_with_args(["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"])
-
-
-
-
-
-
-
-
-
-
-
-
-
